@@ -37,8 +37,7 @@ DEFAULT_MAX_ATTACK_TIME = 100
 valid_ip_prefixes = ('52.', '20.', '14.', '4.', '13.')
 
 # Adjust this to your local timezone, e.g., 'America/New_York' or 'Asia/Kolkata'
-LOCAL_TIMEZONE = pytz.timezone("Asia/Kolkata")
-PROTECTED_FILES = ["Spike.py", "Spike"]
+PROTECTED_FILES = ["Spike.py", "sharp"]
 BLOCKED_COMMANDS = ['nano', 'vim', 'shutdown', 'reboot', 'rm', 'mv', 'dd']
 
 # Fetch the current user and hostname dynamically
